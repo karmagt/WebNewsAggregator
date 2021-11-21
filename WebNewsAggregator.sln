@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNewsAggregator.Services", "WebNewsAggregator.Services\WebNewsAggregator.Services.csproj", "{F688007F-E712-4D92-A469-3B692C52B5B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{727119C3-6397-48F6-9221-F2450C733D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{727119C3-6397-48F6-9221-F2450C733D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{727119C3-6397-48F6-9221-F2450C733D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F688007F-E712-4D92-A469-3B692C52B5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F688007F-E712-4D92-A469-3B692C52B5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F688007F-E712-4D92-A469-3B692C52B5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F688007F-E712-4D92-A469-3B692C52B5B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
