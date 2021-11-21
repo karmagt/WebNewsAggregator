@@ -6,6 +6,15 @@ services:
     environment:
       POSTGRES_PASSWORD: password
 
+  clientapp:
+    build:
+      context: .
+      dockerfile: WebNewsAggregator.ClientApp/Dockerfile
+    ports:
+      - "5111:80"
+    depends_on:
+      - db
+
   #adminer:
   #  image: adminer
   #  restart: always
