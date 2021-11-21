@@ -23,7 +23,6 @@ namespace WebNewsAggregator.Repositories
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // использование Fluent API
             base.OnModelCreating(modelBuilder);
         }
     }
