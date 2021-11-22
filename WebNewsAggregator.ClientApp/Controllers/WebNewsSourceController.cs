@@ -4,16 +4,21 @@ using WebNewsAggregator.ClientApp.Models;
 
 namespace WebNewsAggregator.ClientApp.Controllers
 {
-    public class HomeController : Controller
+    public class WebNewsSourceController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<WebNewsSourceController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public WebNewsSourceController(ILogger<WebNewsSourceController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+
+        public IActionResult AddSource()
+        {
+            return View();
+        }
+        public IActionResult Create()
         {
             return View();
         }
