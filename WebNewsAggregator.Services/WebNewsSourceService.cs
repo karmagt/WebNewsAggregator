@@ -6,7 +6,7 @@ namespace WebNewsAggregator.Services
 {
     public class WebNewsSourceService : IWebNewsSourceService
     {
-        private const string SourceExistsInSystem = "Данный источник новостей уже добавлен в систему";
+        private const string SourceExistsInSystem = "This source already exists in system.";
 
         private IWebNewsSourceRepo WebNewsRepo;
 
